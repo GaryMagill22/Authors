@@ -14,10 +14,10 @@ const AuthorList = (props) => {
 
     return (
         <div>
-            <h1>Product List</h1>
+            <h1>Favorite Authors</h1>
             <ul>
 
-                <p><Link to={`/authors/`}>Create New Author </Link></p>
+                <p><Link to={`/authors/new`}>Add an Author </Link></p>
 
             </ul>
         </div >
